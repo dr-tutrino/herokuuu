@@ -18,11 +18,20 @@ footer {
 
 .svg-container{
 
-	max-width: 40px;
-	height: 40px;
+	max-width: 50px;
+	height: 50px;
 	border: none;
+    padding: 1px;
+    vertical-align: middle;
+
 }
 
+.svg-logo{
+    height:60px;
+    border: none;
+    padding: 10px;
+    vertical-align: middle;
+}
 
 .topmenu{
 	background: #001B27;
@@ -40,11 +49,6 @@ footer {
     text-align:center;
 }
 
-.svg-logo{
-	height:40px;
-	border: none;
-}
-
 .navbar-inverse {
     border-color: #080808;
     background: white;
@@ -58,4 +62,9 @@ footer {
 
 .collapsing {
 	display:none;
+}
+
+.right {
+float:right;    
+padding:2px;
 }
