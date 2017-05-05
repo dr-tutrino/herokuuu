@@ -50,3 +50,12 @@ footer {
     background: white;
 }
 
+
+#submenu {
+    background-color: #e7e7e7;
+    margin-bottom:20px;
+}
+
+.collapsing {
+	display:none;
+}
