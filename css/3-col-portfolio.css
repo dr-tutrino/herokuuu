@@ -96,6 +96,12 @@ background: -webkit-linear-gradient(45deg, rgba(49,144,188,1) 0%,rgba(49,144,188
 background: linear-gradient(45deg, rgba(49,144,188,1) 0%,rgba(49,144,188,0.94) 25%,rgba(10,14,10,0.94) 26%,rgba(4,35,48,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3190bc', endColorstr='#bf042330',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+.text-overlay-solid{
+    position: relative;
+    top: -60px;
+    height: 60px;
+background:rgba(4,35,48,0.75);
+}
 
 .small-icon{
 
@@ -123,4 +129,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3190bc', end
     position: absolute;
     font-size: 15px;
     right: 120px;
+}
+
+.white-text3{
+    color: white;
+    vertical-align: middle;
+    font-size: 15px;
+    position: absolute;
+    top: 30px;
+}
+
+
+.blue-text{
+    color: #3CB6E8;
+    margin:6px;
+    margin-bottom:0px;
+    position: absolute;
+    font-size: 15px;
 }
