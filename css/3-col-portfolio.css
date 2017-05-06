@@ -65,7 +65,7 @@ height: 100px;
 }
 
 
-#submenu {
+.submenu {
     background-color: #e7e7e7;
     margin-bottom:20px;
 }
@@ -87,3 +87,40 @@ width:100px;
 padding:0;
 }
 
+.text-overlay{
+    position: relative;
+    top: -70px;
+    height: 70px;
+    background: -moz-linear-gradient(45deg, rgba(49,144,188,1) 0%, rgba(49,144,188,0.94) 25%, rgba(10,14,10,0.94) 26%, rgba(4,35,48,0.75) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(49,144,188,1) 0%,rgba(49,144,188,0.94) 25%,rgba(10,14,10,0.94) 26%,rgba(4,35,48,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(49,144,188,1) 0%,rgba(49,144,188,0.94) 25%,rgba(10,14,10,0.94) 26%,rgba(4,35,48,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3190bc', endColorstr='#bf042330',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.small-icon{
+
+    max-width: 25px;
+    height: 18px;
+    border: none;
+    padding-bottom: 2px;
+    vertical-align: middle;
+
+
+}
+
+.white-text1{
+    color: white;
+    margin:25px;
+    vertical-align: middle;
+    position: absolute;
+    font-size: 15px;
+}
+
+.white-text2{
+    color: white;
+    margin:25px;
+    vertical-align: middle;
+    position: absolute;
+    font-size: 15px;
+    right: 120px;
+}
