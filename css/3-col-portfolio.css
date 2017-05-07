@@ -147,3 +147,29 @@ background:rgba(4,35,48,0.75);
     position: absolute;
     font-size: 15px;
 }
+
+.small-photo{
+width:50%;
+float:left;
+}
+
+.text-box{
+    background: lightblue;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100px;
+}
+
+.no-padding{
+    padding:0;
+}
+
+.featured-top{
+    height: 50px;
+    padding: 15px;
+    background-color:lightblue;
+}
+
+.tall{
+        height: 165px;
+}
